@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+select {
+    background-color: white;
+    padding: .375rem 2.25rem .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+select:focus{
+    border-color: #009B78 ;
+}
+
+option {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+input {
+    border-radius: .25rem;
+    padding: .375rem 2.25rem .375rem .75rem;
+    border: 1px solid #ced4da;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #009B78;
+}
+
+textarea {
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+
+textarea:focus{
+    outline: none;
+    border-color: #009B78;
+}

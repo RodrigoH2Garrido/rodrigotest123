@@ -1,0 +1,13 @@
+.login-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.logo-container{
+    height: 100vh;
+}
+.input-container{
+    margin-left: 10%;
+    flex-grow: 1;
+    height: 100vh;
+}
